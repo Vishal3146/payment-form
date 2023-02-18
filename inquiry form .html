@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiry form</title>
+    <link rel="stylesheet" href="Inquiry.css">
+</head>
+<body>
+    <form action="/submit-inquiry" method="post">
+        <!-- input fields and submit button will go here -->
+        
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="inquiry">Inquiry:</label>
+      <textarea id="inquiry" name="inquiry" rows="5" required></textarea>
+
+      <input type="submit" value="Submit">
+
+      
+    </form>           
+</body>
+</html>
